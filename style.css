@@ -68,6 +68,24 @@ figcaption {
   margin: 0; /* spacing handled by gap */
 }
 
+.side-by-side {
+  display: flex;            /* put items in a row */
+  justify-content: center;  /* center the row */
+  gap: 20px;                /* space between images */
+  flex-wrap: wrap;           /* wrap to next line if screen too small */
+}
+
+.side-by-side figure {
+  text-align: center;       /* center caption under image */
+  margin: 0;                /* remove default figure margins */
+}
+
+.responsive-img {
+  width: 100%;       /* fills figure width */
+  max-width: 150px;  /* adjust max size */
+  height: auto;      /* maintain aspect ratio */
+  border-radius: 8px;
+}
 
 
 
