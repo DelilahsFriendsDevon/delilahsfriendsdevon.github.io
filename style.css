@@ -39,12 +39,13 @@ img {
   border-radius: 8px; /* optional rounded corners */
 }
 
-.gallery {
-  display: flex;
-  justify-content: center; /* centers images horizontally */
-  gap: 10px;               /* space between images */
-  flex-wrap: wrap;          /* wrap on smaller screens */
+.gallery img {
+  display: inline-block; /* instead of block */
+  margin: 0;             /* spacing handled by gap */
+  border-radius: 8px;
+  max-width: 100%;
 }
+
 
 
 
