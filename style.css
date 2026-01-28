@@ -57,6 +57,18 @@ figcaption {
   margin-top: 5px;
 }
 
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.gallery figure {
+  margin: 0; /* spacing handled by gap */
+}
+
+
 
 
 
