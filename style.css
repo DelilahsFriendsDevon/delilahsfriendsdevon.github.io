@@ -39,10 +39,12 @@ img {
   border-radius: 8px; /* optional rounded corners */
 }
 
-<div class="gallery">
-  <img src="dog1.jpg" alt="Happy dog" width="200">
-  <img src="dog2.jpg" alt="Another dog" width="200">
-  <img src="dog3.jpg" alt="Another dog" width="200">
-</div>
+.gallery {
+  display: flex;
+  justify-content: center; /* centers images horizontally */
+  gap: 10px;               /* space between images */
+  flex-wrap: wrap;          /* wrap on smaller screens */
+}
+
 
 
